@@ -39,7 +39,7 @@ export function Header() {
               <NavigationMenu className="hidden md:flex"> 
                 <NavigationMenuList>
                   <NavigationMenuItem>
-                    <NavigationMenuTrigger>Femenino</NavigationMenuTrigger>
+                    <NavigationMenuTrigger>Female</NavigationMenuTrigger>
                     <NavigationMenuContent>
                       <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] lg:w-[600px] lg:grid-cols-[.75fr_1fr]">
                         <li className="row-span-4">
@@ -80,7 +80,7 @@ export function Header() {
                     </NavigationMenuContent>
                   </NavigationMenuItem>
                   <NavigationMenuItem>
-                    <NavigationMenuTrigger>Masculino</NavigationMenuTrigger>
+                    <NavigationMenuTrigger>Male</NavigationMenuTrigger>
                     <NavigationMenuContent>
                       <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] lg:w-[600px] lg:grid-cols-[.75fr_1fr]">
                         <li className="row-span-4">
@@ -123,7 +123,7 @@ export function Header() {
                   <NavigationMenuItem>
                     <Link href="/sale" legacyBehavior passHref>
                       <NavigationMenuLink className="group inline-flex h-10 w-max items-center justify-center rounded-md bg-background px-4 py-2 text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-accent/50 data-[state=open]:bg-accent/50">
-                        Promoções
+                        Promotions
                       </NavigationMenuLink>
                     </Link>
                   </NavigationMenuItem>

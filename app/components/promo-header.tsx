@@ -16,11 +16,11 @@ export function PromoHeader() {
         <p className="mr-8">
           <span className="inline-flex gap-1.5">
             🎉
-            <span className="sm:hidden">-20% em tudo!</span>
-            <span className="hidden sm:inline">Aproveite 20% de desconto em toda a loja!</span>
+            <span className="sm:hidden">-20% at all!</span>
+            <span className="hidden sm:inline">Enjoy 20% off storewide!</span>
           </span>
           <span className="hidden sm:inline ml-1.5">
-            Use o código: <span className="font-semibold">SAVE20</span>
+            Use the code: <span className="font-semibold">SAVE20</span>
           </span>
         </p>
         <Button
