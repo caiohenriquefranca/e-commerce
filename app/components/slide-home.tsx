@@ -17,7 +17,7 @@ const images = [
 
 export function Slidehome() {
     return(
-        <div className="w-full h-[80vh]">
+        <div className="w-full h-auto min-h-[50vh] sm:min-h-[60vh] md:min-h-[70vh] lg:min-h-[80vh]">
         <Swiper
           modules={[Pagination, Autoplay]}
           spaceBetween={0}
