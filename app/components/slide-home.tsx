@@ -33,12 +33,18 @@ export function Slidehome() {
                 src={src}
                 alt={`Slide ${index + 1}`}
                 width={1920}
-                height={800}
+                height={1080}
                 className="object-cover h-auto"
               />
             </SwiperSlide>
           ))}
         </Swiper>
+
+        <div className="flex justify-center items-center bg-black py-10">
+          <div className="">
+              
+          </div>
+        </div>
       </div>
     )
 }
